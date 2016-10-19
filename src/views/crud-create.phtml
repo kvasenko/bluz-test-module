@@ -1,4 +1,6 @@
-<?php if (isset($errors)) :?>
+<?php
+$this->headScript($this->baseUrl('js/test/config.js'));
+if (isset($errors)) :?>
 <script>
     require(['bluz.form'], function(form) {
         var $form = $('#form');

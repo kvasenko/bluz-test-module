@@ -36,6 +36,7 @@
 </form>
 
 <?php
+$this->headScript($this->baseUrl('js/test/config.js'));
 if (isset($errors)) :
     $data = json_encode(['errors'=>$errors]);
     $this->headScript('require(["bluz.form"], function(form) {
