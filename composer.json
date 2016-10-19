@@ -1,0 +1,16 @@
+{
+  "name": "kvasenko/bluz-test-module",
+  "type": "bluz-module",
+  "license": "MIT",
+  "description": "Test bluz module",
+  "require": {
+    "kvasenko/composer-installer-bluz": "dev-composer-installer",
+    "js/jquery": "dev-master"
+  },
+  "extra": {
+    "bluz": {
+      "module_name": "test",
+      "modules_path": "application/modules"
+    }
+  }
+}
