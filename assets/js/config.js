@@ -1,6 +1,7 @@
 
 require.config({
 	paths: {
+		"jquery": './vendor/jquery',
 		"pager": "./vendor/pager",
 		// see more at https://cdnjs.com/
 		"underscore": '//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore',
