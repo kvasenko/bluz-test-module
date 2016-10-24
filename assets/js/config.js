@@ -1,13 +1,7 @@
 
 require.config({
 	paths: {
-		"dropzone": './vendor/dropzone-amd-module',
-		"redactor": './../redactor/redactor',
-		"redactor.imagemanager": './../redactor/plugins/imagemanager',
 		"pager": "./vendor/pager",
-		"text": "./vendor/text",
-		"jsx": "./vendor/jsx",
-		"JSXTransformer": "./vendor/JSXTransformer",
 		// see more at https://cdnjs.com/
 		"underscore": '//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore',
 		"backbone": '//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.3.3/backbone',
@@ -37,16 +31,10 @@ require.config({
 			deps: ['react'],
 			exports: 'Pager'
 		},
-		"redactor": {
-			deps: ['jquery'],
-			exports: '$.fn.redactor'
-		},
-		"redactor.imagemanager": {
-			deps: ['redactor', 'jquery'],
-			exports: 'RedactorPlugins'
-		},
 		"underscore": {
 			exports: '_'
 		}
 	},
 });
+
+require(['backbone']);
