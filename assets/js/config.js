@@ -34,7 +34,5 @@ require.config({
 		"underscore": {
 			exports: '_'
 		}
-	},
+	}
 });
-
-require(['backbone']);
