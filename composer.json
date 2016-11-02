@@ -9,7 +9,7 @@
   "extra": {
     "bluz": {
       "module_name": "test",
-      "modules_path": "application/modules"
+      "required_models": "test"
     }
   }
 }
